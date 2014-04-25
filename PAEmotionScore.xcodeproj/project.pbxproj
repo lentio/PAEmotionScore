@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCB5FB59190A5BCE009DB203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB58190A5BCE009DB203 /* Foundation.framework */; };
+		DCB5FB5E190A5BCE009DB203 /* PAEmotionScore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DCB5FB5D190A5BCE009DB203 /* PAEmotionScore.h */; };
+		DCB5FB60190A5BCE009DB203 /* PAEmotionScore.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FB5F190A5BCE009DB203 /* PAEmotionScore.m */; };
+		DCB5FB67190A5BCE009DB203 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB66190A5BCE009DB203 /* XCTest.framework */; };
+		DCB5FB68190A5BCE009DB203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB58190A5BCE009DB203 /* Foundation.framework */; };
+		DCB5FB6A190A5BCE009DB203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB69190A5BCE009DB203 /* UIKit.framework */; };
+		DCB5FB6D190A5BCE009DB203 /* libPAEmotionScore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB55190A5BCE009DB203 /* libPAEmotionScore.a */; };
+		DCB5FB73190A5BCE009DB203 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCB5FB71190A5BCE009DB203 /* InfoPlist.strings */; };
+		DCB5FB75190A5BCE009DB203 /* PAEmotionScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FB74190A5BCE009DB203 /* PAEmotionScoreTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCB5FB6B190A5BCE009DB203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB5FB4D190A5BCE009DB203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB5FB54190A5BCE009DB203;
+			remoteInfo = PAEmotionScore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCB5FB53190A5BCE009DB203 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DCB5FB5E190A5BCE009DB203 /* PAEmotionScore.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DCB5FB55190A5BCE009DB203 /* libPAEmotionScore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPAEmotionScore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB5FB58190A5BCE009DB203 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCB5FB5C190A5BCE009DB203 /* PAEmotionScore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PAEmotionScore-Prefix.pch"; sourceTree = "<group>"; };
+		DCB5FB5D190A5BCE009DB203 /* PAEmotionScore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAEmotionScore.h; sourceTree = "<group>"; };
+		DCB5FB5F190A5BCE009DB203 /* PAEmotionScore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAEmotionScore.m; sourceTree = "<group>"; };
+		DCB5FB65190A5BCE009DB203 /* PAEmotionScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAEmotionScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB5FB66190A5BCE009DB203 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DCB5FB69190A5BCE009DB203 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DCB5FB70190A5BCE009DB203 /* PAEmotionScoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PAEmotionScoreTests-Info.plist"; sourceTree = "<group>"; };
+		DCB5FB72190A5BCE009DB203 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCB5FB74190A5BCE009DB203 /* PAEmotionScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAEmotionScoreTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB5FB52190A5BCE009DB203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5FB59190A5BCE009DB203 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5FB62190A5BCE009DB203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5FB67190A5BCE009DB203 /* XCTest.framework in Frameworks */,
+				DCB5FB6D190A5BCE009DB203 /* libPAEmotionScore.a in Frameworks */,
+				DCB5FB6A190A5BCE009DB203 /* UIKit.framework in Frameworks */,
+				DCB5FB68190A5BCE009DB203 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCB5FB4C190A5BCE009DB203 = {
+			isa = PBXGroup;
+			children = (
+				DCB5FB5A190A5BCE009DB203 /* PAEmotionScore */,
+				DCB5FB6E190A5BCE009DB203 /* PAEmotionScoreTests */,
+				DCB5FB57190A5BCE009DB203 /* Frameworks */,
+				DCB5FB56190A5BCE009DB203 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB5FB56190A5BCE009DB203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5FB55190A5BCE009DB203 /* libPAEmotionScore.a */,
+				DCB5FB65190A5BCE009DB203 /* PAEmotionScoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB5FB57190A5BCE009DB203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5FB58190A5BCE009DB203 /* Foundation.framework */,
+				DCB5FB66190A5BCE009DB203 /* XCTest.framework */,
+				DCB5FB69190A5BCE009DB203 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCB5FB5A190A5BCE009DB203 /* PAEmotionScore */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5FB5D190A5BCE009DB203 /* PAEmotionScore.h */,
+				DCB5FB5F190A5BCE009DB203 /* PAEmotionScore.m */,
+				DCB5FB5B190A5BCE009DB203 /* Supporting Files */,
+			);
+			path = PAEmotionScore;
+			sourceTree = "<group>";
+		};
+		DCB5FB5B190A5BCE009DB203 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5FB5C190A5BCE009DB203 /* PAEmotionScore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCB5FB6E190A5BCE009DB203 /* PAEmotionScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5FB74190A5BCE009DB203 /* PAEmotionScoreTests.m */,
+				DCB5FB6F190A5BCE009DB203 /* Supporting Files */,
+			);
+			path = PAEmotionScoreTests;
+			sourceTree = "<group>";
+		};
+		DCB5FB6F190A5BCE009DB203 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5FB70190A5BCE009DB203 /* PAEmotionScoreTests-Info.plist */,
+				DCB5FB71190A5BCE009DB203 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB5FB54190A5BCE009DB203 /* PAEmotionScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB5FB78190A5BCE009DB203 /* Build configuration list for PBXNativeTarget "PAEmotionScore" */;
+			buildPhases = (
+				DCB5FB51190A5BCE009DB203 /* Sources */,
+				DCB5FB52190A5BCE009DB203 /* Frameworks */,
+				DCB5FB53190A5BCE009DB203 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PAEmotionScore;
+			productName = PAEmotionScore;
+			productReference = DCB5FB55190A5BCE009DB203 /* libPAEmotionScore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DCB5FB64190A5BCE009DB203 /* PAEmotionScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB5FB7B190A5BCE009DB203 /* Build configuration list for PBXNativeTarget "PAEmotionScoreTests" */;
+			buildPhases = (
+				DCB5FB61190A5BCE009DB203 /* Sources */,
+				DCB5FB62190A5BCE009DB203 /* Frameworks */,
+				DCB5FB63190A5BCE009DB203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB5FB6C190A5BCE009DB203 /* PBXTargetDependency */,
+			);
+			name = PAEmotionScoreTests;
+			productName = PAEmotionScoreTests;
+			productReference = DCB5FB65190A5BCE009DB203 /* PAEmotionScoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB5FB4D190A5BCE009DB203 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = pingantech;
+			};
+			buildConfigurationList = DCB5FB50190A5BCE009DB203 /* Build configuration list for PBXProject "PAEmotionScore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCB5FB4C190A5BCE009DB203;
+			productRefGroup = DCB5FB56190A5BCE009DB203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB5FB54190A5BCE009DB203 /* PAEmotionScore */,
+				DCB5FB64190A5BCE009DB203 /* PAEmotionScoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB5FB63190A5BCE009DB203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5FB73190A5BCE009DB203 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB5FB51190A5BCE009DB203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5FB60190A5BCE009DB203 /* PAEmotionScore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5FB61190A5BCE009DB203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5FB75190A5BCE009DB203 /* PAEmotionScoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCB5FB6C190A5BCE009DB203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB5FB54190A5BCE009DB203 /* PAEmotionScore */;
+			targetProxy = DCB5FB6B190A5BCE009DB203 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCB5FB71190A5BCE009DB203 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB5FB72190A5BCE009DB203 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB5FB76190A5BCE009DB203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCB5FB77190A5BCE009DB203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB5FB79190A5BCE009DB203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PAEmotionScore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PAEmotionScore/PAEmotionScore-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DCB5FB7A190A5BCE009DB203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/PAEmotionScore.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PAEmotionScore/PAEmotionScore-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DCB5FB7C190A5BCE009DB203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PAEmotionScore/PAEmotionScore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PAEmotionScoreTests/PAEmotionScoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DCB5FB7D190A5BCE009DB203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PAEmotionScore/PAEmotionScore-Prefix.pch";
+				INFOPLIST_FILE = "PAEmotionScoreTests/PAEmotionScoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB5FB50190A5BCE009DB203 /* Build configuration list for PBXProject "PAEmotionScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB5FB76190A5BCE009DB203 /* Debug */,
+				DCB5FB77190A5BCE009DB203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB5FB78190A5BCE009DB203 /* Build configuration list for PBXNativeTarget "PAEmotionScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB5FB79190A5BCE009DB203 /* Debug */,
+				DCB5FB7A190A5BCE009DB203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCB5FB7B190A5BCE009DB203 /* Build configuration list for PBXNativeTarget "PAEmotionScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB5FB7C190A5BCE009DB203 /* Debug */,
+				DCB5FB7D190A5BCE009DB203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB5FB4D190A5BCE009DB203 /* Project object */;
+}
