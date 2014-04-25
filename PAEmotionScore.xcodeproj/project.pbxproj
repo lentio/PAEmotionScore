@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCB54FC0190A6655009DB203 /* CLM.cc in Sources */ = {isa = PBXBuildFile; fileRef = DCB54FB0190A6654009DB203 /* CLM.cc */; };
+		DCB54FC1190A6655009DB203 /* FCheck.cc in Sources */ = {isa = PBXBuildFile; fileRef = DCB54FB2190A6654009DB203 /* FCheck.cc */; };
+		DCB54FC2190A6655009DB203 /* FDet.cc in Sources */ = {isa = PBXBuildFile; fileRef = DCB54FB4190A6654009DB203 /* FDet.cc */; };
+		DCB54FC3190A6655009DB203 /* IO.cc in Sources */ = {isa = PBXBuildFile; fileRef = DCB54FB6190A6654009DB203 /* IO.cc */; };
+		DCB54FC4190A6655009DB203 /* Patch.cc in Sources */ = {isa = PBXBuildFile; fileRef = DCB54FB8190A6654009DB203 /* Patch.cc */; };
+		DCB54FC5190A6655009DB203 /* PAW.cc in Sources */ = {isa = PBXBuildFile; fileRef = DCB54FBA190A6654009DB203 /* PAW.cc */; };
+		DCB54FC6190A6655009DB203 /* PDM.cc in Sources */ = {isa = PBXBuildFile; fileRef = DCB54FBC190A6654009DB203 /* PDM.cc */; };
+		DCB54FC7190A6655009DB203 /* Tracker.cc in Sources */ = {isa = PBXBuildFile; fileRef = DCB54FBE190A6654009DB203 /* Tracker.cc */; };
 		DCB5FB59190A5BCE009DB203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB58190A5BCE009DB203 /* Foundation.framework */; };
 		DCB5FB5E190A5BCE009DB203 /* PAEmotionScore.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DCB5FB5D190A5BCE009DB203 /* PAEmotionScore.h */; };
 		DCB5FB60190A5BCE009DB203 /* PAEmotionScore.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FB5F190A5BCE009DB203 /* PAEmotionScore.m */; };
 		DCB5FB67190A5BCE009DB203 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB66190A5BCE009DB203 /* XCTest.framework */; };
 		DCB5FB68190A5BCE009DB203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB58190A5BCE009DB203 /* Foundation.framework */; };
-		DCB5FB6A190A5BCE009DB203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB69190A5BCE009DB203 /* UIKit.framework */; };
 		DCB5FB6D190A5BCE009DB203 /* libPAEmotionScore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB55190A5BCE009DB203 /* libPAEmotionScore.a */; };
 		DCB5FB73190A5BCE009DB203 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCB5FB71190A5BCE009DB203 /* InfoPlist.strings */; };
 		DCB5FB75190A5BCE009DB203 /* PAEmotionScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FB74190A5BCE009DB203 /* PAEmotionScoreTests.m */; };
+		DCB5FB97190A5D9E009DB203 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB96190A5D9E009DB203 /* Accelerate.framework */; };
+		DCB5FB9B190A623D009DB203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB9A190A623D009DB203 /* UIKit.framework */; };
+		DCB5FBB6190A6546009DB203 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FBB5190A6546009DB203 /* opencv2.framework */; };
+		DCB5FBC9190A6570009DB203 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FBB9190A6570009DB203 /* common.cpp */; };
+		DCB5FBCA190A6570009DB203 /* emotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FBBC190A6570009DB203 /* emotion.cpp */; };
+		DCB5FBCB190A6570009DB203 /* emotion_interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FBBE190A6570009DB203 /* emotion_interface.cpp */; };
+		DCB5FBCC190A6570009DB203 /* FaceTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FBC0190A6570009DB203 /* FaceTracker.cpp */; };
+		DCB5FBCD190A6570009DB203 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FBC3190A6570009DB203 /* Log.cpp */; };
+		DCB5FBCE190A6570009DB203 /* pch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FBC6190A6570009DB203 /* pch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +58,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DCB54FB0190A6654009DB203 /* CLM.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLM.cc; sourceTree = "<group>"; };
+		DCB54FB1190A6654009DB203 /* CLM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLM.h; sourceTree = "<group>"; };
+		DCB54FB2190A6654009DB203 /* FCheck.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FCheck.cc; sourceTree = "<group>"; };
+		DCB54FB3190A6654009DB203 /* FCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCheck.h; sourceTree = "<group>"; };
+		DCB54FB4190A6654009DB203 /* FDet.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FDet.cc; sourceTree = "<group>"; };
+		DCB54FB5190A6654009DB203 /* FDet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDet.h; sourceTree = "<group>"; };
+		DCB54FB6190A6654009DB203 /* IO.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IO.cc; sourceTree = "<group>"; };
+		DCB54FB7190A6654009DB203 /* IO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IO.h; sourceTree = "<group>"; };
+		DCB54FB8190A6654009DB203 /* Patch.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Patch.cc; sourceTree = "<group>"; };
+		DCB54FB9190A6654009DB203 /* Patch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patch.h; sourceTree = "<group>"; };
+		DCB54FBA190A6654009DB203 /* PAW.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PAW.cc; sourceTree = "<group>"; };
+		DCB54FBB190A6654009DB203 /* PAW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAW.h; sourceTree = "<group>"; };
+		DCB54FBC190A6654009DB203 /* PDM.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PDM.cc; sourceTree = "<group>"; };
+		DCB54FBD190A6654009DB203 /* PDM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDM.h; sourceTree = "<group>"; };
+		DCB54FBE190A6654009DB203 /* Tracker.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tracker.cc; sourceTree = "<group>"; };
+		DCB54FBF190A6654009DB203 /* Tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tracker.h; sourceTree = "<group>"; };
 		DCB5FB55190A5BCE009DB203 /* libPAEmotionScore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPAEmotionScore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB5FB58190A5BCE009DB203 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DCB5FB5C190A5BCE009DB203 /* PAEmotionScore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PAEmotionScore-Prefix.pch"; sourceTree = "<group>"; };
@@ -49,10 +81,29 @@
 		DCB5FB5F190A5BCE009DB203 /* PAEmotionScore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAEmotionScore.m; sourceTree = "<group>"; };
 		DCB5FB65190A5BCE009DB203 /* PAEmotionScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAEmotionScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB5FB66190A5BCE009DB203 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DCB5FB69190A5BCE009DB203 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DCB5FB70190A5BCE009DB203 /* PAEmotionScoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PAEmotionScoreTests-Info.plist"; sourceTree = "<group>"; };
 		DCB5FB72190A5BCE009DB203 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DCB5FB74190A5BCE009DB203 /* PAEmotionScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAEmotionScoreTests.m; sourceTree = "<group>"; };
+		DCB5FB96190A5D9E009DB203 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DCB5FB9A190A623D009DB203 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCB5FBB5190A6546009DB203 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		DCB5FBB8190A6570009DB203 /* coefficient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coefficient.h; sourceTree = "<group>"; };
+		DCB5FBB9190A6570009DB203 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
+		DCB5FBBA190A6570009DB203 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		DCB5FBBB190A6570009DB203 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		DCB5FBBC190A6570009DB203 /* emotion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emotion.cpp; sourceTree = "<group>"; };
+		DCB5FBBD190A6570009DB203 /* emotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emotion.h; sourceTree = "<group>"; };
+		DCB5FBBE190A6570009DB203 /* emotion_interface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emotion_interface.cpp; sourceTree = "<group>"; };
+		DCB5FBBF190A6570009DB203 /* emotion_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emotion_interface.h; sourceTree = "<group>"; };
+		DCB5FBC0190A6570009DB203 /* FaceTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FaceTracker.cpp; sourceTree = "<group>"; };
+		DCB5FBC1190A6570009DB203 /* FaceTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceTracker.h; sourceTree = "<group>"; };
+		DCB5FBC2190A6570009DB203 /* inttypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inttypes.h; sourceTree = "<group>"; };
+		DCB5FBC3190A6570009DB203 /* Log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		DCB5FBC4190A6570009DB203 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		DCB5FBC5190A6570009DB203 /* myconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myconfig.h; sourceTree = "<group>"; };
+		DCB5FBC6190A6570009DB203 /* pch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pch.cpp; sourceTree = "<group>"; };
+		DCB5FBC7190A6570009DB203 /* pch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pch.h; sourceTree = "<group>"; };
+		DCB5FBC8190A6570009DB203 /* stdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdint.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +111,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB5FBB6190A6546009DB203 /* opencv2.framework in Frameworks */,
+				DCB5FB9B190A623D009DB203 /* UIKit.framework in Frameworks */,
+				DCB5FB97190A5D9E009DB203 /* Accelerate.framework in Frameworks */,
 				DCB5FB59190A5BCE009DB203 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,7 +124,6 @@
 			files = (
 				DCB5FB67190A5BCE009DB203 /* XCTest.framework in Frameworks */,
 				DCB5FB6D190A5BCE009DB203 /* libPAEmotionScore.a in Frameworks */,
-				DCB5FB6A190A5BCE009DB203 /* UIKit.framework in Frameworks */,
 				DCB5FB68190A5BCE009DB203 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,9 +131,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DCB54FAF190A6653009DB203 /* FaceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				DCB54FB0190A6654009DB203 /* CLM.cc */,
+				DCB54FB1190A6654009DB203 /* CLM.h */,
+				DCB54FB2190A6654009DB203 /* FCheck.cc */,
+				DCB54FB3190A6654009DB203 /* FCheck.h */,
+				DCB54FB4190A6654009DB203 /* FDet.cc */,
+				DCB54FB5190A6654009DB203 /* FDet.h */,
+				DCB54FB6190A6654009DB203 /* IO.cc */,
+				DCB54FB7190A6654009DB203 /* IO.h */,
+				DCB54FB8190A6654009DB203 /* Patch.cc */,
+				DCB54FB9190A6654009DB203 /* Patch.h */,
+				DCB54FBA190A6654009DB203 /* PAW.cc */,
+				DCB54FBB190A6654009DB203 /* PAW.h */,
+				DCB54FBC190A6654009DB203 /* PDM.cc */,
+				DCB54FBD190A6654009DB203 /* PDM.h */,
+				DCB54FBE190A6654009DB203 /* Tracker.cc */,
+				DCB54FBF190A6654009DB203 /* Tracker.h */,
+			);
+			path = FaceTracker;
+			sourceTree = "<group>";
+		};
 		DCB5FB4C190A5BCE009DB203 = {
 			isa = PBXGroup;
 			children = (
+				DCB5FBCF190A65CB009DB203 /* 3rd */,
+				DCB5FBB7190A6570009DB203 /* libemotion */,
 				DCB5FB5A190A5BCE009DB203 /* PAEmotionScore */,
 				DCB5FB6E190A5BCE009DB203 /* PAEmotionScoreTests */,
 				DCB5FB57190A5BCE009DB203 /* Frameworks */,
@@ -100,9 +178,11 @@
 		DCB5FB57190A5BCE009DB203 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DCB5FBB5190A6546009DB203 /* opencv2.framework */,
+				DCB5FB9A190A623D009DB203 /* UIKit.framework */,
+				DCB5FB96190A5D9E009DB203 /* Accelerate.framework */,
 				DCB5FB58190A5BCE009DB203 /* Foundation.framework */,
 				DCB5FB66190A5BCE009DB203 /* XCTest.framework */,
-				DCB5FB69190A5BCE009DB203 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,6 +221,38 @@
 				DCB5FB71190A5BCE009DB203 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCB5FBB7190A6570009DB203 /* libemotion */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5FBB8190A6570009DB203 /* coefficient.h */,
+				DCB5FBB9190A6570009DB203 /* common.cpp */,
+				DCB5FBBA190A6570009DB203 /* common.h */,
+				DCB5FBBB190A6570009DB203 /* config.h */,
+				DCB5FBBC190A6570009DB203 /* emotion.cpp */,
+				DCB5FBBD190A6570009DB203 /* emotion.h */,
+				DCB5FBBE190A6570009DB203 /* emotion_interface.cpp */,
+				DCB5FBBF190A6570009DB203 /* emotion_interface.h */,
+				DCB5FBC0190A6570009DB203 /* FaceTracker.cpp */,
+				DCB5FBC1190A6570009DB203 /* FaceTracker.h */,
+				DCB5FBC2190A6570009DB203 /* inttypes.h */,
+				DCB5FBC3190A6570009DB203 /* Log.cpp */,
+				DCB5FBC4190A6570009DB203 /* Log.h */,
+				DCB5FBC5190A6570009DB203 /* myconfig.h */,
+				DCB5FBC6190A6570009DB203 /* pch.cpp */,
+				DCB5FBC7190A6570009DB203 /* pch.h */,
+				DCB5FBC8190A6570009DB203 /* stdint.h */,
+			);
+			path = libemotion;
+			sourceTree = "<group>";
+		};
+		DCB5FBCF190A65CB009DB203 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				DCB54FAF190A6653009DB203 /* FaceTracker */,
+			);
+			path = 3rd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +336,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB54FC5190A6655009DB203 /* PAW.cc in Sources */,
+				DCB54FC4190A6655009DB203 /* Patch.cc in Sources */,
+				DCB54FC3190A6655009DB203 /* IO.cc in Sources */,
+				DCB5FBCD190A6570009DB203 /* Log.cpp in Sources */,
+				DCB5FBC9190A6570009DB203 /* common.cpp in Sources */,
+				DCB54FC7190A6655009DB203 /* Tracker.cc in Sources */,
+				DCB5FBCB190A6570009DB203 /* emotion_interface.cpp in Sources */,
+				DCB5FBCE190A6570009DB203 /* pch.cpp in Sources */,
+				DCB54FC6190A6655009DB203 /* PDM.cc in Sources */,
+				DCB54FC2190A6655009DB203 /* FDet.cc in Sources */,
 				DCB5FB60190A5BCE009DB203 /* PAEmotionScore.m in Sources */,
+				DCB5FBCC190A6570009DB203 /* FaceTracker.cpp in Sources */,
+				DCB54FC0190A6655009DB203 /* CLM.cc in Sources */,
+				DCB5FBCA190A6570009DB203 /* emotion.cpp in Sources */,
+				DCB54FC1190A6655009DB203 /* FCheck.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +403,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -289,8 +416,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./3rd,
+					./opencv2.framework/,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = ./opencv2.framework/;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lstdc++";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -314,13 +449,22 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./3rd,
+					./opencv2.framework/,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = ./opencv2.framework/;
+				OTHER_LDFLAGS = "-lstdc++";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -330,6 +474,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/PAEmotionScore.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PAEmotionScore",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PAEmotionScore/PAEmotionScore-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -342,6 +491,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/PAEmotionScore.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PAEmotionScore",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PAEmotionScore/PAEmotionScore-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
