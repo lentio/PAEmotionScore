@@ -25,7 +25,6 @@
 		DCB5FB75190A5BCE009DB203 /* PAEmotionScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FB74190A5BCE009DB203 /* PAEmotionScoreTests.m */; };
 		DCB5FB97190A5D9E009DB203 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB96190A5D9E009DB203 /* Accelerate.framework */; };
 		DCB5FB9B190A623D009DB203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FB9A190A623D009DB203 /* UIKit.framework */; };
-		DCB5FBB6190A6546009DB203 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB5FBB5190A6546009DB203 /* opencv2.framework */; };
 		DCB5FBC9190A6570009DB203 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FBB9190A6570009DB203 /* common.cpp */; };
 		DCB5FBCA190A6570009DB203 /* emotion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FBBC190A6570009DB203 /* emotion.cpp */; };
 		DCB5FBCB190A6570009DB203 /* emotion_interface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCB5FBBE190A6570009DB203 /* emotion_interface.cpp */; };
@@ -86,7 +85,6 @@
 		DCB5FB74190A5BCE009DB203 /* PAEmotionScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAEmotionScoreTests.m; sourceTree = "<group>"; };
 		DCB5FB96190A5D9E009DB203 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		DCB5FB9A190A623D009DB203 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DCB5FBB5190A6546009DB203 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		DCB5FBB8190A6570009DB203 /* coefficient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coefficient.h; sourceTree = "<group>"; };
 		DCB5FBB9190A6570009DB203 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
 		DCB5FBBA190A6570009DB203 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCB5FBB6190A6546009DB203 /* opencv2.framework in Frameworks */,
 				DCB5FB9B190A623D009DB203 /* UIKit.framework in Frameworks */,
 				DCB5FB97190A5D9E009DB203 /* Accelerate.framework in Frameworks */,
 				DCB5FB59190A5BCE009DB203 /* Foundation.framework in Frameworks */,
@@ -178,7 +175,6 @@
 		DCB5FB57190A5BCE009DB203 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DCB5FBB5190A6546009DB203 /* opencv2.framework */,
 				DCB5FB9A190A623D009DB203 /* UIKit.framework */,
 				DCB5FB96190A5D9E009DB203 /* Accelerate.framework */,
 				DCB5FB58190A5BCE009DB203 /* Foundation.framework */,
@@ -559,6 +555,7 @@
 				DCB5FB7A190A5BCE009DB203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCB5FB7B190A5BCE009DB203 /* Build configuration list for PBXNativeTarget "PAEmotionScoreTests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +564,7 @@
 				DCB5FB7D190A5BCE009DB203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
