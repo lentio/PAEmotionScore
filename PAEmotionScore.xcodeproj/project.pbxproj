@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC276FB9190E460700ABD1CC /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC276FB2190E450700ABD1CC /* opencv2.framework */; };
 		DCB54FC0190A6655009DB203 /* CLM.cc in Sources */ = {isa = PBXBuildFile; fileRef = DCB54FB0190A6654009DB203 /* CLM.cc */; };
 		DCB54FC1190A6655009DB203 /* FCheck.cc in Sources */ = {isa = PBXBuildFile; fileRef = DCB54FB2190A6654009DB203 /* FCheck.cc */; };
 		DCB54FC2190A6655009DB203 /* FDet.cc in Sources */ = {isa = PBXBuildFile; fileRef = DCB54FB4190A6654009DB203 /* FDet.cc */; };
@@ -58,9 +57,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DC276FB2190E450700ABD1CC /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
-		DC276FB5190E455B00ABD1CC /* opencv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = opencv.hpp; sourceTree = "<group>"; };
-		DC276FB6190E455B00ABD1CC /* opencv_modules.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = opencv_modules.hpp; sourceTree = "<group>"; };
 		DC276FB7190E458400ABD1CC /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../PAEmotionScore/opencv2.framework; sourceTree = "<group>"; };
 		DCB54FB0190A6654009DB203 /* CLM.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CLM.cc; sourceTree = "<group>"; };
 		DCB54FB1190A6654009DB203 /* CLM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLM.h; sourceTree = "<group>"; };
@@ -114,7 +110,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC276FB9190E460700ABD1CC /* opencv2.framework in Frameworks */,
 				DCB5FB9B190A623D009DB203 /* UIKit.framework in Frameworks */,
 				DCB5FB97190A5D9E009DB203 /* Accelerate.framework in Frameworks */,
 				DCB5FB59190A5BCE009DB203 /* Foundation.framework in Frameworks */,
@@ -134,16 +129,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC276FB4190E455B00ABD1CC /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				DC276FB5190E455B00ABD1CC /* opencv.hpp */,
-				DC276FB6190E455B00ABD1CC /* opencv_modules.hpp */,
-			);
-			name = Headers;
-			path = opencv2.framework/Versions/A/Headers;
-			sourceTree = "<group>";
-		};
 		DCB54FAF190A6653009DB203 /* FaceTracker */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,8 +177,6 @@
 			isa = PBXGroup;
 			children = (
 				DC276FB7190E458400ABD1CC /* opencv2.framework */,
-				DC276FB4190E455B00ABD1CC /* Headers */,
-				DC276FB2190E450700ABD1CC /* opencv2.framework */,
 				DCB5FB9A190A623D009DB203 /* UIKit.framework */,
 				DCB5FB96190A5D9E009DB203 /* Accelerate.framework */,
 				DCB5FB58190A5BCE009DB203 /* Foundation.framework */,
